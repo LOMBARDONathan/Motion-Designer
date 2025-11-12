@@ -91,6 +91,10 @@ gap:12px;
     list-style: none;
 }
 
+.pointenmoins {
+    list-style: none;
+}
+
 .txt-decoration{
     text-decoration: none;
 }
@@ -98,4 +102,12 @@ gap:12px;
 /*les display*/
 .flex {
     display: flex;
+}
+
+/* section-hero */
+.section-hero {
+      height: 100vh;
+      left: 150%;
+      top: 78%;
+  background-position: center ;
 }
