@@ -1,0 +1,101 @@
+* { /*RESET (efface le code par défaut imposé par le navigateur)*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* flex-box */
+.flex {
+display: flex;
+flex-wrap: wrap;
+}
+/* alignement horizontale */
+.space-between {
+justify-content: space-between
+}
+.space-around {
+justify-content: space-around 
+}
+.space-evenly {
+justify-content: space-evenly
+}
+.justify-center {
+justify-content: center;
+}
+.flex-end {
+justify-content: flex-end;
+}
+.flex-start {
+justify-content: flex-start;
+}
+/* aligment verticale */
+.align-center {
+align-items: center;
+}
+.align-end {
+align-items: end;
+}
+.gap-12 {
+gap:12px;
+}
+
+/* arrière plan */
+
+.bg-orange {
+    background-color:#FF6250;
+}
+
+/* largeur */
+
+.w-22 {
+    width: 22%;
+}
+.w-48 {
+    width: 48%;
+}
+
+/* arrondissement */
+
+.brder-radius {
+    border-radius: 25px;
+}
+
+/* encadrement */
+
+.container-1000 {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*les positions*/
+
+.absolute {
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+.fixed {
+    position: fixed;
+}
+.sticky {
+    position: sticky;
+}
+
+/* le texte */
+
+.style {
+    list-style: none;
+}
+
+.txt-decoration{
+    text-decoration: none;
+}
+
+/*les display*/
+.flex {
+    display: flex;
+}
