@@ -5,66 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
-    
-        <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- parent -->
-    <header class="flex space-between container-1000">
+    <header class="flex space-between  align-center container-1000">
         <!-- premier enfant  -->
         <img src="asset/logo.png">
         <nav>
             <!-- deuxième enfant -->
-            <ul class="w-22">
-                <li><a class="style txt-decoration" href="">A propos</a></li>
-                <li><a class="style txt-decoration" href="">Réalisation</a></li>
-                <li><a class="style txt-decoration" href="">Contact</a></li>
+            <ul class="flex align-center list-style gap-12">
+                <li><a href="">A propos</a></li>
+                <li><a href="">Réalisation</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- section-hero -->
-        <section>
-            <div class="flex">
+        <section class="flex align-center container-1000 margin-top-100">
+            <div class="w-60 ">
                 <h2></h2>
                 <h1>Léo Vanel M tion</h1>
                 <p>Donner vie à vos idées par le mouvement</p>
-                <a href="">Voir les projets</a>
+                <a class="bg-black txt-white" href="">Voir les projets</a>
             </div>
+
+            <img class="w-33" src="asset/photo-profil.png">
         </section>
 
-        <img src="asset/photo-profil.png">
+
     </main>
 
     <!-- section préstation -->
 
-    <section>
-        <h2>Mes prestations</h2>
+    <section class="margin-top-100">
+        <h2 class="">Mes prestations</h2>
         <!-- première div -->
         <!-- parent -->
-        <div class="flex">
-            <div>
+        <div class="flex container-1000 align-center ">
+            <div class="w-33">
                 <h3>Animation 2D / 3D</h3>
                 <p>Conception et animation de visuels dynamiques pour vos vidéos, publicités, ou
                     présentations professionnelles.</p>
                 <img src="asset/service-1.png" alt="">
             </div>
             <!-- deuxième div -->
-            <div>
+            <div class="w-33">
                 <img src="asset/service-2.png" alt="">
                 <h3>Vidéo explicative</h3>
                 <p>Création de vidéos animées pédagogiques pour présenter un service, un produit
                     ou une idée de manière claire et engageante</p>
             </div>
             <!-- troisième div -->
-            <div>
+            <div class="w-33">
                 <h3>Identité animée</h3>
                 <p>Animation de logos et d’éléments graphiques pour renforcer la reconnaissance de
                     votre marque dans vos contenus vidéo.</p>
@@ -74,27 +76,41 @@
     </section>
 
     <!-- section valeurs -->
-    <section class="flex">
+    <section class="bg-orange margin-top-100">
         <h2>Valeurs ajoutées</h2>
-        <!-- animation -->
-        <div></div>
-        <p>Un style d’animation fluide et expressif, adapté à chaque univers de marque</p>
-        <!-- écoute -->
-        <div></div>
-        <p>Une écoute attentive pour comprendre vos besoins et votre ton</p>
-        <!-- livrables -->
-        <div></div>
-        <p>Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</p>
-        <!-- workflow -->
-        <div></div>
-        <p>Un workflow agile pour une production rapide et collaboratives</p>
+        <div class="flex container-1000 space-between">
+           <!-- animation -->
+            <div class="w-22">
+              <div class="carrer arrondidroite"></div>
+                <p class="txt-white">Un style d’animation fluide et expressif, adapté à chaque univers de marque</p>
+            </div>   
+             <!-- écoute -->
+            <div class="w-22">
+                <div class="carrer fleche"></div>
+                <p class="txt-white">Une écoute attentive pour comprendre vos besoins et votre ton</p>
+            </div>   
+           <!-- livrables -->
+            <div class="w-22">
+                <div class="carrer citron"></div>
+                <p class="txt-white">Des livrables optimisés pour les réseaux sociaux, le web ou la diffusion grand écran</p>
+            </div>
+            
+            <!-- workflow -->
+            <div class="w-22">
+                <div class="carrer arrondi"></div>
+                <p class="txt-white">Un workflow agile pour une production rapide et collaboratives</p>
+            </div>
+            
     </section>
 
     <!-- section réalisations -->
-    <section>
-        <h2></h2>
+    <section class="margin-top-100">
+        <h2>Mes réalisations</h2>
         <!-- parent -->
-        <div class="flex">
+        <div class="flex container-1000">
+
+
+
             <!-- premier enfant -->
             <div>
                 <img src="asset/projet-nimbus.png" alt="">
@@ -125,46 +141,60 @@
     </section>
 
     <!-- section clients -->
-    <section>
-        <h2>Mes clients</h2>
-        <!-- parent (la div) -->
-        <div class="flex">
-            <!-- premier enfant -->
-            <img src="asset/google-logo.png" alt="">
-            <img src="asset/nike-logo.png" alt="">
-            <img src="asset/samsung-logo.png" alt="">
-            <img src="asset/apple-logo.png" alt="">
-            <img src="asset/adidas-logo.png" alt="">
-        </div>
+    <section class=" bg-orange">
         <!-- parent -->
-        <div>
-            <!-- deuxième enfant -->
-            <div>
-                <i class="ph ph-star"></i>
-                <h4>Camille</h4>
-                <a href="">Vidéo explicative</a>
-                <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
-                    rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
+        <div class="flex container-1000 justify-center">
+            <h2>Mes clients</h2>
+            <!--enfant-->
+            <div class="bg-white">
+                <!-- premier enfant -->
+                <img src="asset/google-logo.png" alt="">
+                <img src="asset/nike-logo.png" alt="">
+                <img src="asset/samsung-logo.png" alt="">
+                <img src="asset/apple-logo.png" alt="">
+                <img src="asset/adidas-logo.png" alt="">
             </div>
+            <!-- parent -->
             <div>
-                <i class="ph ph-star"></i>
-                <h4>Camille</h4>
-                <a href="">Vidéo explicative</a>
-                <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
-                    rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
+                <!-- deuxième enfant -->
+                <div class="bg-white">
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <h4>Camille</h4>
+                    <a href="" class="txt-decoration txt-black">Vidéo explicative</a>
+                    <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
+                        rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
+                </div>
+                <div class="bg-white">
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <h4>Camille</h4>
+                    <a href="" class="txt-decoration txt-black">Vidéo explicative</a>
+                    <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
+                        rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
+                </div>
+                <div class="bg-white">
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <i class="ph ph-star"></i>
+                    <h4>Camille</h4>
+                    <a href="" class="txt-decoration txt-black">Vidéo explicative</a>
+                    <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
+                        rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
+                </div>
             </div>
-            <div>
-                <i class="ph ph-star"></i>
-                <h4>Camille</h4>
-                <a href="">Vidéo explicative</a>
-                <p>Léo a tout de suite compris le ton que nous voulions pour notre vidéo. Le
-                    rendu est à la fois professionnel et accessible. Parfait pour nos clients </p>
-            </div>
-        </div>
     </section>
     <footer>
         <!-- parent -->
-        <section>
+        <section class="flex container-1000">
             <!-- premier enfant -->
             <div>
                 <h2>Travaillons ensemble!</h2>

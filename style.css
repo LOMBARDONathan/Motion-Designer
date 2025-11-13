@@ -13,6 +13,23 @@ flex-wrap: wrap;
 .space-between {
 justify-content: space-between
 }
+
+.margin-top-200 {
+    margin-top: 200px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.margin-top50 {
+    margin-top: 50px;
+    left: 100px;
+}
 .space-around {
 justify-content: space-around 
 }
@@ -40,24 +57,43 @@ gap:12px;
 }
 
 /* arrière plan */
+.bg-black {
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+
 
 .bg-orange {
     background-color:#FF6250;
 }
 
 /* largeur */
-
+ .w-10 {
+    width: 10%;
+ }
 .w-22 {
     width: 22%;
 }
+.w-33 {
+    width: 33%;
+}
 .w-48 {
     width: 48%;
+}
+.w-60 {
+    width: 60%;
 }
 
 /* arrondissement */
 
 .brder-radius {
     border-radius: 25px;
+}
+
+.rond {
+    border-radius: 45px;
 }
 
 /* encadrement */
@@ -87,10 +123,27 @@ gap:12px;
 
 /* le texte */
 
-.style {
+h2 {
+    text-align: center;
+    margin-bottom: 87px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+i {
+    color: black;
+}
+.list-style {
     list-style: none;
 }
-
+.txt-black {
+    color: black;
+}
+.txt-white {
+    color: white;
+}
 .pointenmoins {
     list-style: none;
 }
@@ -110,4 +163,32 @@ gap:12px;
       left: 150%;
       top: 78%;
   background-position: center ;
+}
+
+
+/* header */
+header {
+    width: 100%;
+}
+
+/*Valeurs*/
+.carrer {
+    width: 86px;
+    height: 86px;
+    background-color: white;
+}
+
+/* sens des aiguilles d'une montre */
+.arrondidroite {
+    border-radius: 26px 0px 26px 0px;
+}
+.fleche{
+    border-radius: 0px 65px 0px 0px;
+}
+
+.citron {
+    border-radius: 50px 0px 50px 0px;
+}
+.arrondi {
+    border-radius: 0px 0px 0px 26px;
 }
