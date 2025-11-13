@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
 * { /*RESET (efface le code par défaut imposé par le navigateur)*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+     font-family: "Epilogue", sans-serif;
 }
+
+
+
 
 /* flex-box */
 .flex {
@@ -19,6 +25,13 @@ justify-content: space-between
     left: 0px;
     right: 0px;
     bottom: 0px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-20{
+    margin-top: 20px;
 }
 .margin-top-100 {
     margin-top: 100px;
@@ -73,8 +86,14 @@ gap:12px;
  .w-10 {
     width: 10%;
  }
+ .w-15 {
+    width: 15%;
+ }
 .w-22 {
     width: 22%;
+}
+.w-30 {
+    width: 30%;
 }
 .w-33 {
     width: 33%;
@@ -84,6 +103,9 @@ gap:12px;
 }
 .w-60 {
     width: 60%;
+}
+.w-100 {
+    width: 100%;
 }
 
 /* arrondissement */
@@ -151,7 +173,9 @@ i {
 .txt-decoration{
     text-decoration: none;
 }
-
+.txt-center {
+    text-align: center;
+}
 /*les display*/
 .flex {
     display: flex;
@@ -171,6 +195,7 @@ header {
     width: 100%;
 }
 
+/*  */
 /*Valeurs*/
 .carrer {
     width: 86px;
@@ -191,4 +216,66 @@ header {
 }
 .arrondi {
     border-radius: 0px 0px 0px 26px;
+}
+
+/*les margin*/
+/*Top */
+.margin-top-5{
+    margin-top: 5px;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-45 {
+    margin-top: 45px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* Bottom */
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.margin-bottom-45 {
+    margin-bottom: 45px; }
+.margin-bottom-100 {
+    margin-bottom: 100;
+}
+
+
+/* padding */
+
+.padding-top-45 {
+    padding-top: 45px;
+}
+
+.padding-bottom-45 {
+    padding-bottom: 45px;
+}
+
+.padding20{
+    padding: 20px;
+}
+.padding-top-64 {
+    padding: 64px 0px;
+}
+
+/* footer */
+input {
+    display: block;
+    margin-bottom: 16px;
+    padding: 4px 8px;
+}
+
+/*section hero 2*/
+h1 span {
+    border-radius: 360px;
+    background-color: #009379;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
